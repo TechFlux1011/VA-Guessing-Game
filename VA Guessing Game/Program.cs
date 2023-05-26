@@ -23,7 +23,7 @@ do
     {
         Console.WriteLine("Wrong try again");
     }
-    if (attemptCount >= 3)
+    if (attemptCount >= 4)
     {
         Console.WriteLine("You've run out of attempts");
         break;
