@@ -26,6 +26,7 @@ do
     if (attemptCount >= 4)
     {
         Console.WriteLine("You've run out of attempts");
+        Console.WriteLine($"The Magic Number{magicNumber}");
         break;
     }
 } while (userNumber != magicNumber);
